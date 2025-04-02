@@ -1,0 +1,12 @@
+.name{
+    background-color: rgb(160, 45, 45);
+}
+.image{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}
+.google-icon{
+    height: 50px;
+    width: 150px    ;
+}
