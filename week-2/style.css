@@ -3,13 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+/* body{
     background-color: red;
-}
+} */
 nav{
-    background-color: rgb(169, 212, 249);
+    background-color: rgb(233, 192, 236);
     padding: 8px 12px;
     text-decoration: none;
+    height: 40px;
 }
 .navbar{
     list-style: none;
@@ -23,6 +24,64 @@ ul a{
     align-items: end;
 } 
 ul a:hover{
-   color: rgb(0, 42, 255);
+   color: rgb(255, 255, 255);
+}
+/* Section hero Started */
+
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* padding: 40px; */
+}
+.hero-section_wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255 192 203 / 50%);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section_wrapper h1{
+    margin-bottom: 24px;
+font-size: 48px;
+    font-family: "Kanit", sans-serif;
+}
+.hero-section_link{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.hero-section_link:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 78, 108);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.quote {
+    font-size: 30px;
+    font-family:fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    font-family: "Poetsen One", sans-serif;
+}
+blockquote cite{
+    padding-top: 20px;
+    display: block;
+    text-align: right;
+    font-family:monospace;
+    font-size: 20px;
+
 }
 
